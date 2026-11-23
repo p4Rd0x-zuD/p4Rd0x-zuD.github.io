@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Julián Andrés Pardo Hurtado — Hoja de Vida</title>
+<style>
+  @page { size: A4; margin: 13mm 14mm 12mm 14mm; }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family:'Inter','Segoe UI','Liberation Sans',Arial,Helvetica,sans-serif;
+    font-size:9.9pt; line-height:1.44; color:#1b2130;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  /* barra superior de color */
+  .topbar{ height:5px; border-radius:3px; margin-bottom:10px;
+    background:linear-gradient(90deg,#6d28d9 0%,#a21caf 45%,#0891b2 100%); }
+
+  header{ margin-bottom:9px; }
+  h1{ font-size:23pt; line-height:1.06; margin:0 0 3px; letter-spacing:-.6px; color:#0f172a; }
+  .role{ font-size:10.4pt; color:#4c1d95; font-weight:700; letter-spacing:.1px; margin:0 0 6px; }
+  .contact{ font-size:8.9pt; color:#475569; }
+  .contact span{ white-space:nowrap; }
+  .sep{ color:#cbd5e1; padding:0 5px; }
+  .contact a{ color:#475569; text-decoration:none; }
+  .contact .hl{ color:#0f172a; font-weight:600; }
+
+  section{ margin-top:11px; }
+  h2{
+    font-size:8.8pt; text-transform:uppercase; letter-spacing:1.3px; color:#6d28d9;
+    margin:0 0 5px; padding-bottom:3px; border-bottom:1px solid #e2e8f0;
+    display:flex; align-items:center; gap:6px;
+  }
+  h2::before{ content:''; width:9px; height:9px; border-radius:2px;
+    background:linear-gradient(135deg,#6d28d9,#0891b2); display:inline-block; }
+
+  p{ margin:0 0 5px; }
+  p.profile{ text-align:justify; color:#334155; }
+
+  .job{ margin-bottom:8px; }
+  .job-head{ display:flex; justify-content:space-between; align-items:baseline; gap:10px; }
+  .job-title{ font-size:10.6pt; font-weight:700; color:#0f172a; margin:0; }
+  .when{ font-size:8.6pt; color:#64748b; white-space:nowrap; font-weight:600; }
+  .company{ font-size:9.4pt; color:#4c1d95; font-weight:600; margin:1px 0 4px; }
+  .company em{ color:#64748b; font-style:normal; font-weight:400; }
+  ul{ margin:2px 0 0; padding-left:13px; }
+  li{ margin:0 0 2.5px; color:#334155; }
+  li b{ color:#0f172a; font-weight:600; }
+  .two{ columns:2; column-gap:18px; }
+
+  /* logros */
+  .ach{ display:flex; gap:8px; align-items:flex-start; margin-bottom:5px; }
+  .ach .badge{ flex:0 0 auto; font-size:8.2pt; font-weight:800; color:#7c2d12;
+    background:#fef3c7; border:1px solid #fcd34d; border-radius:4px; padding:2px 6px; }
+  .ach .txt{ color:#334155; }
+  .ach b{ color:#0f172a; }
+
+  /* educación */
+  .edu{ margin-bottom:6px; }
+  .edu .t{ font-weight:700; color:#0f172a; font-size:10pt; }
+  .edu .m{ font-size:8.8pt; color:#64748b; }
+
+  /* certificaciones */
+  .certs{ display:grid; grid-template-columns:1fr 1fr; column-gap:16px; row-gap:3px; }
+  .cert{ font-size:9pt; color:#334155; }
+  .cert b{ color:#0f172a; font-weight:600; }
+  .cert .y{ color:#6d28d9; font-weight:700; }
+
+  /* competencias */
+  .skill{ margin-bottom:4px; font-size:9.2pt; }
+  .skill .k{ font-weight:700; color:#0f172a; }
+  .skill .v{ color:#334155; }
+
+  .proj{ margin-bottom:6px; }
+  .proj .t{ font-weight:700; color:#0f172a; font-size:9.8pt; }
+  .proj .d{ color:#334155; }
+  .proj .stack{ font-size:8.6pt; color:#64748b; }
+
+  .foot{ margin-top:10px; padding-top:6px; border-top:1px solid #e2e8f0;
+    font-size:8.2pt; color:#94a3b8; display:flex; justify-content:space-between; }
+  .avoid{ break-inside:avoid; page-break-inside:avoid; }
+  a{ color:#1d4ed8; text-decoration:none; }
+</style>
+</head>
+<body>
+
+<div class="topbar"></div>
+
+<header>
+  <h1>Julián Andrés Pardo Hurtado</h1>
+  <p class="role">Tecnólogo en Gestión de Redes de Datos · Soporte TI e Infraestructura · Automatización con IA</p>
+  <p class="contact">
+    <span>Cartago, Valle del Cauca, Colombia</span><span class="sep">|</span>
+    <span class="hl">+57 317 637 6736</span><span class="sep">|</span>
+    <span>pardojulian189@gmail.com</span><span class="sep">|</span>
+    <span>github.com/p4Rd0x-zuD</span><span class="sep">|</span>
+    <span>p4rd0x-zud.github.io</span>
+  </p>
+</header>
+
+<section>
+  <h2>Perfil profesional</h2>
+  <p class="profile">
+    Tecnólogo en Gestión de Redes de Datos con experiencia en infraestructura y soporte TI:
+    administración de servidores Linux, redes y cableado estructurado, enlaces inalámbricos
+    punto a punto, gestión de incidentes y documentación de infraestructura. Formación
+    complementaria en administración de sistemas Red Hat, redes Cisco y ciberseguridad, reforzada
+    con aprendizaje autodidacta en virtualización, contenedores, automatización e integración de
+    soluciones con inteligencia artificial. <b>3° lugar nacional en ciberseguridad (SenaSoft)</b>.
+    Capacidad para diagnosticar problemas, investigar soluciones, documentar y automatizar procesos.
+  </p>
+</section>
+
+<section>
+  <h2>Experiencia profesional</h2>
+  <div class="job">
+    <div class="job-head">
+      <p class="job-title">Soporte TI / Técnico de Redes Junior</p>
+      <span class="when">Marzo 2026 – Actualidad · 9 meses</span>
+    </div>
+    <p class="company">Terrazas Agropecuarias <em>· Cartago, Valle del Cauca · prácticas profesionales y continuidad laboral</em></p>
+    <ul>
+      <li>Instalación, alineación, configuración y administración de <b>enlaces inalámbricos punto a punto de hasta 24 km</b>.</li>
+      <li>Administración y soporte de <b>servidores Linux</b> y de servicios de red (DNS, DHCP, Samba, FTP).</li>
+      <li>Configuración de <b>VLANs</b>, topologías de red y diagnóstico de conectividad (Wireshark, Packet Tracer).</li>
+      <li>Soporte técnico de hardware y software, atención de tickets e incidentes y soporte a usuarios finales.</li>
+      <li>Instalación, mantenimiento y diagnóstico de <b>cableado estructurado</b>, incluyendo detección de fallas por sulfatación.</li>
+      <li>Soporte y mantenimiento de <b>impresoras</b>, periféricos y servicios de impresión.</li>
+      <li>Elaboración de <b>dashboards empresariales</b> y reporting operativo para el área.</li>
+      <li>Documentación de infraestructura: topología de red, registro de equipos nuevos y retiro de equipos.</li>
+      <li>Automatización de procesos internos con <b>n8n, APIs e IA</b>, reduciendo tareas manuales repetitivas.</li>
+      <li>Servicios en la nube sobre servidor propio: <b>hardening</b>, acceso con claves SSH y firewall.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="avoid">
+  <h2>Logros</h2>
+  <div class="ach">
+    <span class="badge">3.° LUGAR</span>
+    <span class="txt"><b>Concurso Nacional de Ciberseguridad — SenaSoft.</b> Reconocimiento a nivel nacional en pruebas de seguridad informática, análisis de redes y resolución de retos técnicos.</span>
+  </div>
+  <div class="ach">
+    <span class="badge">24 KM</span>
+    <span class="txt"><b>Enlaces inalámbricos de larga distancia.</b> Instalación y puesta en marcha de enlaces punto a punto de hasta 24 km en entorno empresarial.</span>
+  </div>
+  <div class="ach">
+    <span class="badge">CLOUD</span>
+    <span class="txt"><b>Servidor propio en la nube.</b> Despliegue y administración con hardening, autenticación por claves SSH y firewall configurado.</span>
+  </div>
+</section>
+
+<section class="avoid">
+  <h2>Formación académica</h2>
+  <div class="edu">
+    <div class="t">Tecnólogo en Gestión de Redes de Datos</div>
+    <div class="m">SENA — Centro de Tecnologías Agroindustriales · Julio 2024 – Septiembre 2026 · Finalizado (certificado en trámite)</div>
+  </div>
+  <div class="edu">
+    <div class="t">Técnico en Diseño e Integración de Multimedia</div>
+    <div class="m">Técnico Ciudad de Cartago · semestres culminados</div>
+  </div>
+  <div class="edu">
+    <div class="t">Bachiller Académico</div>
+    <div class="m">Técnico Ciudad de Cartago · Noviembre 2023</div>
+  </div>
+</section>
+
+<section class="avoid">
+  <h2>Certificaciones</h2>
+  <div class="certs">
+    <div class="cert"><b>Red Hat System Administration II</b> (RH134-RHA, v9.3) <span class="y">2026</span></div>
+    <div class="cert"><b>Red Hat System Administration I</b> (RH124-RHA, v9.3) <span class="y">2025</span></div>
+    <div class="cert"><b>CCNA: Introduction to Networks</b> — Cisco <span class="y">2025</span></div>
+    <div class="cert"><b>IT Essentials</b> — Cisco <span class="y">2024</span></div>
+    <div class="cert"><b>Introduction to Cybersecurity</b> — Cisco <span class="y">2024</span></div>
+  </div>
+</section>
+
+<section class="avoid">
+  <h2>Competencias técnicas</h2>
+  <div class="skill"><span class="k">Redes e infraestructura:</span> <span class="v">TCP/IP · DNS · DHCP · VPN · VLAN · Active Directory · dominios · Samba · FTP · cableado estructurado · topologías · enlaces inalámbricos punto a punto · Cisco · Packet Tracer · Wireshark</span></div>
+  <div class="skill"><span class="k">Sistemas y servidores:</span> <span class="v">Windows · Linux (administración) · Red Hat · servidores empresariales · VirtualBox · VMware · Docker</span></div>
+  <div class="skill"><span class="k">Cloud y seguridad:</span> <span class="v">servidor propio en la nube · hardening · claves SSH · firewall · fundamentos de ciberseguridad · Metasploit · análisis de redes</span></div>
+  <div class="skill"><span class="k">Automatización e IA:</span> <span class="v">n8n · agentes de IA · APIs REST · webhooks · integración de servicios · diseño de flujos · soluciones conversacionales · Redis</span></div>
+  <div class="skill"><span class="k">Desarrollo y herramientas:</span> <span class="v">Python · Bash · Git · GitHub · PostgreSQL · documentación técnica</span></div>
+</section>
+
+<section class="avoid">
+  <h2>Proyectos destacados</h2>
+  <div class="proj">
+    <div class="t">Agente conversacional autónomo para WhatsApp</div>
+    <div class="d">Solución automatizada que interactúa con usuarios por WhatsApp, procesa solicitudes, agenda citas y consulta la base de datos en tiempo real.</div>
+    <div class="stack">WhatsApp · n8n · IA · APIs · PostgreSQL</div>
+  </div>
+  <div class="proj">
+    <div class="t">Dashboards de cierre de mes</div>
+    <div class="d">Transformación de reportes de Excel complejos en dashboards claros con gráficas y filtros para la toma de decisiones.</div>
+    <div class="stack">Visualización · Scripts · Reporting</div>
+  </div>
+  <div class="proj">
+    <div class="t">Automatización de reconocimiento con Shodan</div>
+    <div class="d">Reporte diario automatizado (7:00 AM) de IPs públicas: prueba de concepto de OSINT con scheduling.</div>
+    <div class="stack">Shodan · cron · OSINT</div>
+  </div>
+</section>
+
+<section class="avoid">
+  <h2>Idiomas y habilidades profesionales</h2>
+  <div class="two">
+    <div class="skill"><span class="k">Español:</span> <span class="v">nativo.</span></div>
+    <div class="skill"><span class="k">Inglés:</span> <span class="v">técnico — lectura de documentación y textos técnicos (intermedio/alto); escritura básica; conversación en desarrollo.</span></div>
+    <div class="skill"><span class="k">Diagnóstico:</span> <span class="v">análisis de incidentes y resolución de problemas técnicos.</span></div>
+    <div class="skill"><span class="k">Documentación:</span> <span class="v">infraestructura, redes, topología y equipos.</span></div>
+    <div class="skill"><span class="k">Trabajo:</span> <span class="v">autonomía, recursividad, adaptabilidad y aprendizaje autodidacta.</span></div>
+    <div class="skill"><span class="k">Soporte:</span> <span class="v">mesa de ayuda y atención a usuarios finales.</span></div>
+  </div>
+</section>
+
+<div class="foot">
+  <span>Julián Andrés Pardo Hurtado · Hoja de vida</span>
+  <span>Portafolio: p4rd0x-zud.github.io</span>
+</div>
+
+</body>
+</html>
